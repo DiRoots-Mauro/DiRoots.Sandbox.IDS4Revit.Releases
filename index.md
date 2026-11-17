@@ -25,3 +25,7 @@ The following abbreviations are used in the documentation. These definitions are
 
 - IFC: Industry Foundation Classes
 - IDS: Information Delivery Specification
+
+Preview flow test IDS4Revit first commit.
+
+![Preview flow test image]({{ '/assets/images/preview-flow-test.png' | relative_url }})
