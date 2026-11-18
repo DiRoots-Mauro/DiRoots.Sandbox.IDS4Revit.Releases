@@ -1,0 +1,586 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>IDS4Revit - DiRoots.Sandbox.IDS4Revit.Releases</title>
+
+    
+  
+
+  <link rel="shortcut icon" href="/DiRoots.Sandbox.IDS4Revit.Releases/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/assets/css/just-the-docs-default.css">
+
+  
+
+  
+    <script type="text/javascript" src="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>IDS4Revit | DiRoots.Sandbox.IDS4Revit.Releases</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="IDS4Revit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Replica of DiRoots-Limited/DiRoots.IDS4Revit.Releases for testing documentation PR previews. Not the product repository." />
+<meta property="og:description" content="Replica of DiRoots-Limited/DiRoots.IDS4Revit.Releases for testing documentation PR previews. Not the product repository." />
+<meta property="og:site_name" content="DiRoots.Sandbox.IDS4Revit.Releases" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="IDS4Revit" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Replica of DiRoots-Limited/DiRoots.IDS4Revit.Releases for testing documentation PR previews. Not the product repository.","headline":"IDS4Revit","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/assets/images/diroots-main-logo.png"}},"url":"/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/Pages/IDS4Revit/IDS4Revit.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--  Essential META Tags -->
+<meta property="og:title" content="IDS4Revit | User Guide">
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://diroots.com/wp-content/uploads/2024/11/IDS4Revit-Thumbnail.png">
+<meta property="og:url" content="https://docs.IDS4Revit.diroots.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Additional META tags -->
+<meta property="og:description" content="IDS4Revit is an Autodesk Revit plugin that simplifies the work with IDS files. It makes it easy for Revit users to comply with the Information Delivery Specification (IDS).">
+<meta property="og:site_name" content="DiRoots">
+<meta name="twitter:image:alt" content="IDS4Revit User Manual Cover">
+
+<meta name="theme-color" content="#e6ae46">
+<meta name="rating" content="General">
+
+<meta name="twitter:site" content="@DiRoots17">
+<meta name="twitter:url" content="https://docs.IDS4Revit.diroots.com">
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/" class="site-title lh-tight">
+  <div class="site-logo"></div>
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        <ul class="nav-list"><li class="nav-list-item"><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/getting-started.html" class="nav-list-link">Getting Started</a></li><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/user-guide" class="nav-list-link">IDS4Revit User Guide</a><ul class="nav-list "><li class="nav-list-item  active"><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/Pages/IDS4Revit/IDS4Revit.html" class="nav-list-link active">IDS4Revit</a></li><li class="nav-list-item "><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/Pages/IDS4Revit/Profiles.html" class="nav-list-link">Profiles</a></li></ul></li></ul>
+
+      
+    </nav>
+    <footer class="site-footer">
+      Copyright &copy; 2017 - 2022 <a href="https://diroots.com">DiRoots Limited.</a> All rights reserved.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search DiRoots.Sandbox.IDS4Revit.Releases" aria-label="Search DiRoots.Sandbox.IDS4Revit.Releases" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+      
+        <nav aria-label="Auxiliary" class="aux-nav">
+          <ul class="aux-nav-list">
+            
+              <li class="aux-nav-list-item">
+                <a href="https://diroots.com/" class="site-button"
+                  
+                >
+                  Custom Software Development
+                </a>
+              </li>
+            
+          </ul>
+        </nav>
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="/DiRoots.Sandbox.IDS4Revit.Releases/previews/pr-5/docs/user-guide">IDS4Revit User Guide</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>IDS4Revit</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="general-guide">
+        
+        
+          <a href="#general-guide" class="anchor-heading" aria-labelledby="general-guide"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> General Guide
+        
+        
+      </h1>
+    
+
+<p>Users can click the IDS4Revit button in the IDS4Revit tab to open the main window, which provides access to the main functions via two tabs:</p>
+<ul>
+  <li><strong>Pre-validation</strong> tab: Allows users to pre-validate IDS compliance against the Revit model, find elements based on the IDS file, and export to IFC based on the IDS4Revit configuration.</li>
+  <li><strong>Map Properties</strong> tab: Helps users map the data origin to the required IDS data.</li>
+</ul>
+      <h2 id="general-workflow">
+        
+        
+          <a href="#general-workflow" class="anchor-heading" aria-labelledby="general-workflow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> General workflow
+        
+        
+      </h2>
+    
+
+<ol>
+  <li>Users select the IDS file and IFC Setup.</li>
+  <li>Users review the mapped categories.</li>
+  <li>Users map and create parameters in Map Properties.</li>
+  <li>Users run Pre-validation.</li>
+  <li>Users export to IFC.</li>
+</ol>
+      <h2 class="no_toc text-delta" id="table-of-contents">
+        
+        
+          <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of contents
+        
+        
+      </h2>
+    
+
+<ol id="markdown-toc">
+  <li><a href="#general-workflow" id="markdown-toc-general-workflow">General workflow</a></li>
+  <li><a href="#run-pre-validation" id="markdown-toc-run-pre-validation">Run Pre-validation</a>    <ol>
+      <li><a href="#supported-ids-facets" id="markdown-toc-supported-ids-facets">Supported IDS facets</a></li>
+      <li><a href="#selecting-the-ids-file" id="markdown-toc-selecting-the-ids-file">Selecting the IDS file</a></li>
+      <li><a href="#review-mapped-categories" id="markdown-toc-review-mapped-categories">Review Mapped Categories</a></li>
+      <li><a href="#mapping-the-properties" id="markdown-toc-mapping-the-properties">Mapping the properties</a></li>
+      <li><a href="#creating-revit-parameters-from-ids-properties" id="markdown-toc-creating-revit-parameters-from-ids-properties">Creating Revit Parameters from IDS Properties</a></li>
+      <li><a href="#running-pre-validation" id="markdown-toc-running-pre-validation">Running Pre-validation</a></li>
+      <li><a href="#inspecting-pre-validation-results" id="markdown-toc-inspecting-pre-validation-results">Inspecting pre-validation results</a>        <ol>
+          <li><a href="#inspect-elements-in-revit" id="markdown-toc-inspect-elements-in-revit">Inspect elements in Revit</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><a href="#export-to-ifc" id="markdown-toc-export-to-ifc">Export to IFC</a>    <ol>
+      <li><a href="#exporting-to-ifc-ids-based-ifc-exporter" id="markdown-toc-exporting-to-ifc-ids-based-ifc-exporter">Exporting to IFC (IDS-based IFC exporter)</a>        <ol>
+          <li><a href="#ifc-export-setup-behaviour" id="markdown-toc-ifc-export-setup-behaviour">IFC Export setup Behaviour</a></li>
+          <li><a href="#exportation-process" id="markdown-toc-exportation-process">Exportation process</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><a href="#working-with-ids-tables" id="markdown-toc-working-with-ids-tables">Working with IDS tables</a>    <ol>
+      <li><a href="#human-readable-specifications" id="markdown-toc-human-readable-specifications">Human-readable specifications</a>        <ol>
+          <li><a href="#specification-details-panel" id="markdown-toc-specification-details-panel">Specification Details panel</a></li>
+          <li><a href="#applicability-details-and-requirement-details-columns" id="markdown-toc-applicability-details-and-requirement-details-columns">Applicability Details and Requirement Details columns</a></li>
+        </ol>
+      </li>
+      <li><a href="#table-filters" id="markdown-toc-table-filters">Table filters</a>        <ol>
+          <li><a href="#pre-validation-tab" id="markdown-toc-pre-validation-tab">Pre-validation tab</a></li>
+          <li><a href="#map-properties-tab" id="markdown-toc-map-properties-tab">Map Properties tab</a></li>
+        </ol>
+      </li>
+      <li><a href="#expand-and-collapse-requirements" id="markdown-toc-expand-and-collapse-requirements">Expand and collapse requirements</a></li>
+      <li><a href="#column-preferences" id="markdown-toc-column-preferences">Column preferences</a></li>
+    </ol>
+  </li>
+  <li><a href="#sample-cases" id="markdown-toc-sample-cases">Sample Cases</a></li>
+</ol><hr />
+      <h2 id="run-pre-validation">
+        
+        
+          <a href="#run-pre-validation" class="anchor-heading" aria-labelledby="run-pre-validation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Run Pre-validation
+        
+        
+      </h2>
+    
+      <h3 id="supported-ids-facets">
+        
+        
+          <a href="#supported-ids-facets" class="anchor-heading" aria-labelledby="supported-ids-facets"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Supported IDS facets
+        
+        
+      </h3>
+    
+
+<p>The tool evaluates the following IDS facets during pre-validation, and uses the same facets when exporting to IFC:</p>
+
+<ul>
+  <li><strong>Entity</strong></li>
+  <li><strong>Property</strong></li>
+  <li><strong>Attribute</strong></li>
+  <li><strong>Material</strong></li>
+  <li><strong>Classification</strong></li>
+</ul>
+
+<p><strong>PartOf</strong> is not supported. A specification or requirement that uses PartOf shows <strong>Not supported</strong> in the Status column after pre-validation.</p>
+      <h3 id="selecting-the-ids-file">
+        
+        
+          <a href="#selecting-the-ids-file" class="anchor-heading" aria-labelledby="selecting-the-ids-file"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Selecting the IDS file
+        
+        
+      </h3>
+    
+
+<p>In the main window, users can select the IDS file. The tool supports IDS versions 1.0 and above. If the selected file does not conform to the correct IDS schema definition, the tool shows an error message and does not load the IDS file.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.1-IDS4Revit-SelectIDS.gif" alt="IDS4Revit Select IDS" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="review-mapped-categories">
+        
+        
+          <a href="#review-mapped-categories" class="anchor-heading" aria-labelledby="review-mapped-categories"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Review Mapped Categories
+        
+        
+      </h3>
+    
+
+<p>After loading the IDS file, the tool displays on the <strong>Pre-validation</strong> tab the IFC entities required for each IDS specification. The <strong>Mapped Categories</strong> column shows the associated objects based on the selected IFC Export setup mapping settings. Users who need to change mapped categories can update category mapping in Revit’s IFC export setup settings.</p>
+
+<p>The tool uses these mapped Revit objects, together with entity mapping and the supported facet filters, as the scope of elements for each specification, either from the entire model or the active view based on user input.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.2-IDS4Revit-MappedCategories.png" alt="IDS4Revit Mapped Categories" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="mapping-the-properties">
+        
+        
+          <a href="#mapping-the-properties" class="anchor-heading" aria-labelledby="mapping-the-properties"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Mapping the properties
+        
+        
+      </h3>
+    
+
+<p>On the <strong>Map Properties</strong> tab, users can map user-defined properties and predefined IfcProperties from the IDS file to Revit parameters.</p>
+
+<ul>
+  <li>Mapping Custom Properties: Users can associate Revit parameters with the selected IDS properties, allowing seamless data mapping.</li>
+  <li>Mapping Predefined IFC Properties: The tool displays predefined IfcProperties from the IFC schema with the ‘Pset_’ suffix. By default, the tool maps these IfcProperties to a property and shows them in the UI as ‘&lt; Default&gt; - PropName’. Users can modify them manually.</li>
+</ul>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.3-IDS4Revit-MapProperties.gif" alt="IDS4Revit Map Properties" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+
+<p>Users can click <strong>Refresh Parameters</strong> to reload the parameter list when they want to get the latest parameters from the project. <strong>Import Mapping</strong> is available from Revit 2027 onward and lets users import Revit property mapping into IDS4Revit.</p>
+      <h3 id="creating-revit-parameters-from-ids-properties">
+        
+        
+          <a href="#creating-revit-parameters-from-ids-properties" class="anchor-heading" aria-labelledby="creating-revit-parameters-from-ids-properties"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Creating Revit Parameters from IDS Properties
+        
+        
+      </h3>
+    
+
+<p>The tool allows users to create Revit parameters from property definitions in the IDS file. With just a few clicks, users can generate the necessary parameters without configuring them manually. Users can customize the scope of the created parameters by selecting additional categories, modifying parameter names, or assigning them to specific Revit parameter groups. After creation, the tool maps the parameters automatically and makes them available for export.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.3b-IDS4Revit-CreateParameters.gif" alt="IDS4Revit Create Parameters" />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="running-pre-validation">
+        
+        
+          <a href="#running-pre-validation" class="anchor-heading" aria-labelledby="running-pre-validation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Running Pre-validation
+        
+        
+      </h3>
+    
+
+<p>After properties are mapped, the tool displays restrictions on the <strong>Pre-validation</strong> tab based on the IDS specifications. Users can check IDS compliance against the Revit model with <strong>Run Pre-validation</strong>.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.4-IDS4Revit-InspectProperties.gif" alt="IDS4Revit Inspect Properties" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+
+<p>If the property restriction does not comply with the scope of elements, the tool displays a red background on the restriction status column.</p>
+      <h3 id="inspecting-pre-validation-results">
+        
+        
+          <a href="#inspecting-pre-validation-results" class="anchor-heading" aria-labelledby="inspecting-pre-validation-results"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Inspecting pre-validation results
+        
+        
+      </h3>
+    
+
+<p>After pre-validation, users can review each specification and requirement in the <strong>Status</strong> and <strong>Result</strong> columns.</p>
+
+<p><strong>Status</strong> summarizes compliance for the row:</p>
+
+<ul>
+  <li><strong>Pass</strong>: the specification or requirement is satisfied for the current scope.</li>
+  <li><strong>Fail</strong>: at least one check in scope did not meet the IDS restriction.</li>
+  <li><strong>Not mapped</strong>: required data is not mapped to a Revit parameter (or mapping is incomplete).</li>
+  <li><strong>Not supported</strong>: the row uses the <strong>PartOf</strong> facet, which the tool does not evaluate.</li>
+</ul>
+
+<p><strong>Result</strong> shows the element scope for that row and how many elements passed or failed, for example <code class="language-plaintext highlighter-rouge">23 passed - 141 failed</code>.</p>
+      <h4 id="inspect-elements-in-revit">
+        
+        
+          <a href="#inspect-elements-in-revit" class="anchor-heading" aria-labelledby="inspect-elements-in-revit"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Inspect elements in Revit
+        
+        
+      </h4>
+    
+
+<p>Users can inspect elements in scope for a specification or requirement in two ways:</p>
+
+<ol>
+  <li><strong>Result column</strong>: From the <strong>Result</strong> column, users can click <code class="language-plaintext highlighter-rouge">23 passed</code> or <code class="language-plaintext highlighter-rouge">141 failed</code> to select in Revit all elements in that group (every passing or every failing element for that row).</li>
+  <li><strong>Context menu</strong>: Users can right-click the specification or requirement row and choose:
+    <ul>
+      <li><strong>Select Passing Elements</strong>: Users can select all passing elements for that row.</li>
+      <li><strong>Select Failing Elements</strong>: Users can select all failing elements for that row.</li>
+      <li><strong>Isolate Elements</strong>: Users can isolate all elements related to that row in the active view.</li>
+      <li><strong>Create Section Box</strong>: Users can create a section box around those elements.</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.4b-IDS4Revit-Select%2CIsolate%2CSectionBox.gif" alt="IDS4Revit Select, Isolate and Section Box" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+
+<p>If an IDS requirement defines a required number of elements for the exported IFC file and the scope does not meet it, the tool highlights the cell (for example with a red background) and shows a message when export criteria are not met.</p>
+      <h2 id="export-to-ifc">
+        
+        
+          <a href="#export-to-ifc" class="anchor-heading" aria-labelledby="export-to-ifc"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Export to IFC
+        
+        
+      </h2>
+    
+      <h3 id="exporting-to-ifc-ids-based-ifc-exporter">
+        
+        
+          <a href="#exporting-to-ifc-ids-based-ifc-exporter" class="anchor-heading" aria-labelledby="exporting-to-ifc-ids-based-ifc-exporter"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Exporting to IFC (IDS-based IFC exporter)
+        
+        
+      </h3>
+    
+
+<p>buildingSmart defines Information Delivery Specification (IDS) as a standard for stating BIM information requirements in a way that software can read and check. IDS is not limited to IFC in principle, but its applicability and requirements are structured for the IFC schema, which is why openBIM checking and delivery usually target IFC models. The tool helps users export from Revit to IFC according to the loaded IDS file, using the facets listed in <a href="#supported-ids-facets">Supported IDS facets</a>. The tool does not guarantee full compliance with every IDS requirement, because export uses Revit’s standard IFC exporter.</p>
+      <h4 id="ifc-export-setup-behaviour">
+        
+        
+          <a href="#ifc-export-setup-behaviour" class="anchor-heading" aria-labelledby="ifc-export-setup-behaviour"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> IFC Export setup Behaviour
+        
+        
+      </h4>
+    
+
+<p>The tool allows users to select the IFC export setup based on their requirements. Users can use an existing IFC export setup as a base; the tool applies any additional configurations on top of that setup.</p>
+      <h4 id="exportation-process">
+        
+        
+          <a href="#exportation-process" class="anchor-heading" aria-labelledby="exportation-process"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Exportation process
+        
+        
+      </h4>
+    
+
+<p>After setting up configurations and additional parameters, users can export either the active view or the entire model based on their selection. The tool uses Revit’s standard IFC exporter for the export process.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.5.2-IDS4Revit-ExportToIFC.gif" alt="IDS4Revit Export to IFC" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h2 id="working-with-ids-tables">
+        
+        
+          <a href="#working-with-ids-tables" class="anchor-heading" aria-labelledby="working-with-ids-tables"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Working with IDS tables
+        
+        
+      </h2>
+    
+      <h3 id="human-readable-specifications">
+        
+        
+          <a href="#human-readable-specifications" class="anchor-heading" aria-labelledby="human-readable-specifications"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Human-readable specifications
+        
+        
+      </h3>
+    
+
+<p>IDS content is easier to read in the Pre-validation table without opening the IDS file. Users can view human-readable text in the <strong>Specification Details</strong> panel or in optional table columns.</p>
+      <h4 id="specification-details-panel">
+        
+        
+          <a href="#specification-details-panel" class="anchor-heading" aria-labelledby="specification-details-panel"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Specification Details panel
+        
+        
+      </h4>
+    
+
+<p>Users can open the panel on the right side of the window to see a plain-language description of the selected specification.</p>
+
+<ul>
+  <li><strong>Context menu</strong>: Users can right-click a specification row on the Pre-validation tab and choose <strong>Open Spec. Details</strong>.</li>
+  <li><strong>Row actions (after pre-validation)</strong>: Users can hover a specification row and click the three dots button to open the same panel.</li>
+</ul>
+      <h4 id="applicability-details-and-requirement-details-columns">
+        
+        
+          <a href="#applicability-details-and-requirement-details-columns" class="anchor-heading" aria-labelledby="applicability-details-and-requirement-details-columns"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Applicability Details and Requirement Details columns
+        
+        
+      </h4>
+    
+
+<p>The tool can show human-readable text for applicability and requirements in these columns (per row). They are not shown by default. Users can add them with <strong>Column Preferences</strong> (see <a href="#column-preferences">Column preferences</a> below).</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.8-IDS4Revit-HumanReadableSpecifications.gif" alt="IDS4Revit Human-readable specifications" /></p>
+
+<p><sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="table-filters">
+        
+        
+          <a href="#table-filters" class="anchor-heading" aria-labelledby="table-filters"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table filters
+        
+        
+      </h3>
+    
+
+<p>The tool provides filter controls above each table to reduce how many rows are shown. Available filters depend on the tab.</p>
+      <h4 id="pre-validation-tab">
+        
+        
+          <a href="#pre-validation-tab" class="anchor-heading" aria-labelledby="pre-validation-tab"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Pre-validation tab
+        
+        
+      </h4>
+    
+
+<ul>
+  <li><strong>Status</strong>: Users can filter rows by the <strong>Status</strong> column (for example, Pass, Fail, Not mapped, or Not supported). This is useful after pre-validation to focus on issues.</li>
+  <li><strong>Requirement</strong>: Users can filter by requirement facet type.</li>
+  <li><strong>Search description</strong>: Users can search the text shown in the table columns (including any columns added with <strong>Column Preferences</strong>).</li>
+</ul>
+      <h4 id="map-properties-tab">
+        
+        
+          <a href="#map-properties-tab" class="anchor-heading" aria-labelledby="map-properties-tab"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Map Properties tab
+        
+        
+      </h4>
+    
+
+<ul>
+  <li><strong>Mapping status</strong>: Users can show only rows that need attention, such as <strong>not mapped</strong> parameters or <strong>default</strong> mappings.</li>
+  <li><strong>Search description</strong>: Users can search the text shown in the displayed table columns.</li>
+</ul>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.9-IDS4Revit-TableFilters.gif" alt="IDS4Revit Table Filters" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="expand-and-collapse-requirements">
+        
+        
+          <a href="#expand-and-collapse-requirements" class="anchor-heading" aria-labelledby="expand-and-collapse-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Expand and collapse requirements
+        
+        
+      </h3>
+    
+
+<p>In the <strong>Pre-validation</strong> table, users can show or hide individual requirements for each specification row to focus on specification-level information or drill into details as needed.</p>
+
+<p><strong>Chevron in the ID column</strong>: Users can click the chevron next to a specification’s ID to expand or collapse <strong>that specification only</strong>, toggling visibility of its requirement rows without affecting other specifications.</p>
+
+<p><strong>Context menu (single or multiple specifications)</strong>: Users can right-click one or more specification rows and use <strong>Expand requirements</strong> or <strong>Collapse requirements</strong> to show or hide requirements for every selected specification at once. This is useful when users want to tidy a large IDS file or open several specifications for comparison.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.6-IDS4Revit-ExpandCollapseSpecifications.gif" alt="IDS4Revit Expand Collapse Specifications" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h3 id="column-preferences">
+        
+        
+          <a href="#column-preferences" class="anchor-heading" aria-labelledby="column-preferences"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Column preferences
+        
+        
+      </h3>
+    
+
+<p>Users can open <strong>Column Preferences</strong> on the tab toolbar to add columns from the IDS file. Besides guidance or comments, users can enable <strong>Applicability Details</strong> and <strong>Requirement Details</strong> for human-readable text in the table (see <a href="#human-readable-specifications">Human-readable specifications</a>).</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.10-IDS4Revit-ColumnPreferences.gif" alt="IDS4Revit Add Data to Tables" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p>
+      <h2 id="sample-cases">
+        
+        
+          <a href="#sample-cases" class="anchor-heading" aria-labelledby="sample-cases"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Sample Cases
+        
+        
+      </h2>
+    
+
+<p>DiRoots provides sample IDS files that support IFC versions IFC 2x3, IFC 4, and IFC 4x3 ADD2. If no IDS file is loaded, users can select a sample file from the interface. These samples can be used for reference to better understand how the tool works.</p>
+
+<p><img src="/DiRoots.Sandbox.IDS4Revit.Releases/assets/images/GIFs/2.7-IDS4Revit-SampleCases.gif" alt="IDS4Revit Sample Cases" /><br />
+<sub>Note: the version on the image may not reflect the <a href="">latest version of IDS4Revit</a>.</sub></p><hr />
+
+<p>Users can find more IDS4Revit tutorials on the DiRoots YouTube channel, including videos that answer common questions and explain how to use the tool. Subscribe to stay up to date with news and tips.</p>
+
+<p><a href="https://www.youtube.com/@DiRootsNews" class="btn btn-di-orange">DiRoots Channel</a></p>
+
+        
+
+        
+
+        
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
